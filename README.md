@@ -12,6 +12,7 @@ Install the required files using
 >pip install -r requirements.txt 
 ## Training the data
 The data set has been taken from Kaggle and contains two folders masked and unmasked pictures to train our model.
+First change the DIRECTORY variable in train_mask_detector.py with the location of the dataset on your local repository.
 One can check the accuracy of the model by using the following command in cmd
 > py train_mask_detector.py
 

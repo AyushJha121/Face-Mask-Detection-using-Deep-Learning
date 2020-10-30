@@ -25,3 +25,6 @@ Use the following script to run the program
 > py detect_mask_video.py
 
 You can try out different angles and the program will show the results the confidence value above the square box.
+
+## Watch the program here
+[![Watch the video](https://img.youtube.com/vi/4Nx7SljkJFk/maxresdefault.jpg)](https://youtu.be/4Nx7SljkJFk)

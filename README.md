@@ -14,6 +14,7 @@ Install the required files using
 The data set has been taken from Kaggle and contains two folders masked and unmasked pictures to train our model.
 One can check the accuracy of the model by using the following command in cmd
 > py train_mask_detector.py
+
 An image will be auto generated with the name plot.png which I have attached it shows the accuracy of our model.
 ## Real Time Detection
 For viewing the results you need to have a webcam installed on your PC

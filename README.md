@@ -9,5 +9,15 @@ This system can therefore be used in real-time applications which require face-m
 
 ## Installation
 Install the required files using 
->requirements.txt 
+>pip install -r requirements.txt 
 ## Training the data
+The data set has been taken from Kaggle and contains two folders masked and unmasked pictures to train our model.
+One can check the accuracy of the model by using the following command in cmd
+> py train_mask_detector.py
+An image will be auto generated with the name plot.png which I have attached it shows the accuracy of our model.
+## Real Time Detection
+For viewing the results you need to have a webcam installed on your PC
+Use the following script to run the program
+> py detect_mask_video.py
+
+You can try out different angles and the program will show the results the confidence value above the square box.
